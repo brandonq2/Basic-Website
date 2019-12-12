@@ -19,7 +19,7 @@
   z-index: -1;
   background-color: #000000
   display: block;
-  background-image: url('background.jpg');
+  background-image: url('background.JPG');
   background-size:cover;
   width: 100%;
   height: 100%;
@@ -30,18 +30,6 @@
   -ms-filter: blur(4px);
   filter: blur(4px);
   transform: scale(1.1);
-}
-
-.container1:before{
-  background-color: #000000;
-  background-image: url("background.jpg");
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-size: cover;
-  background-attachment: scroll;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
 }
 
 .menu ul{
@@ -70,6 +58,7 @@
     -ms-animation: fadein 3s; /* Internet Explorer */
      -o-animation: fadein 3s; /* Opera < 12.1 */
         animation: fadein 3s;
+  text-align: center;
 }
 
 .active{
@@ -94,7 +83,7 @@
   float: left;
 }
 .banner-header h1{
-  font-size: 50px;
+  font-size: 70px;
   width: 600px;
   position: relative;
   -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
@@ -108,6 +97,7 @@
   font-size: 20px;
   width: 600px;
   position: relative;
+  line-height: 1.6;
   -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
    -moz-animation: fadein 5s; /* Firefox < 16 */
     -ms-animation: fadein 5s; /* Internet Explorer */
@@ -117,8 +107,12 @@
 
 .name{
   color: #47b3ff;
+    transition: .3s;
 }
 
+.name:hover{
+  color: a60043
+}
 
 @keyframes fadein {
     from { opacity: 0; }
@@ -147,4 +141,53 @@
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+.footer ul{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  height: 30px;
+  padding: 40 80;
+  display: inline-flex;
+}
+
+.footer ul li{
+  list-style: none;
+  margin: 25px 30px;
+  color: #929fa8;
+  cursor: pointer;
+  transition: .3s;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 3s; /* Firefox < 16 */
+    -ms-animation: fadein 3s; /* Internet Explorer */
+     -o-animation: fadein 3s; /* Opera < 12.1 */
+        animation: fadein 3s;
+  text-align: center;
+}
+
+.footer-logos img{
+  width: 30px;
+  margin-top: -3px;
+  filter: brightness(30%);
+}
+
+.footer-logos:hover{
+  filter:brightness(300%) !important;
+}
+
+.footer:before{
+  content: "";
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10px;
+  padding: 30 80;
+  background-color: black;
+  opacity: 0.6;
+
 }
