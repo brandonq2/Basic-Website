@@ -70,11 +70,11 @@
   font-size: 50px;
   width: 600px;
   position: relative;
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-   -moz-animation: fadein 3s; /* Firefox < 16 */
-    -ms-animation: fadein 3s; /* Internet Explorer */
-     -o-animation: fadein 3s; /* Opera < 12.1 */
-        animation: fadein 3s;
+  -webkit-animation: fadein 10s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 10s; /* Firefox < 16 */
+    -ms-animation: fadein 10s; /* Internet Explorer */
+     -o-animation: fadein 10s; /* Opera < 12.1 */
+        animation: fadein 10s;
 }
 
 
