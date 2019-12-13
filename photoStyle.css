@@ -1,10 +1,10 @@
 .imageScreen{
   content: " ";
-  width: 95%;
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 5%;
+  overflow-x: hidden;
   -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
    -moz-animation: fadein 3s; /* Firefox < 16 */
     -ms-animation: fadein 3s; /* Internet Explorer */
@@ -15,7 +15,7 @@
 .myImg {
   object-fit: cover;
   border-radius: 3px;
-  margin: 30 30;
+  margin: 30 40;
   cursor: pointer;
   transition: 0.3s;
   opacity: 0.8;
@@ -97,4 +97,89 @@
   .modal-content {
     width: 100%;
   }
+}
+
+.photoBanner{
+  left: -44;
+  background: rgb(0,0,0)!important;
+  background: linear-gradient(180deg, rgba(0,0,0,1) 32%, rgba(29,46,98,1) 87%)!important;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 105%;
+  height: 50%;
+  top: 20%;
+  position:relative;
+  color: #ffffff;
+}
+
+.photoBanner-header{
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+.photoBanner-header h1{
+  font-size: 70px;
+  width: 100%;
+  position: relative;
+  -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 5s; /* Firefox < 16 */
+    -ms-animation: fadein 5s; /* Internet Explorer */
+     -o-animation: fadein 5s; /* Opera < 12.1 */
+        animation: fadein 5s;
+}
+
+.parallax1 {
+  align-content: center;
+  /* The image used */
+  background-image: url("Photos/Landscapes/img1.JPG");
+  /* Set a specific height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url("Photos/Smoke/img1.JPG");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax3 {
+  /* The image used */
+  background-image: url("Photos/Colour/img6.jpg");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax4 {
+  /* The image used */
+  background-image: url("Photos/Photoshop/img1.png");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
