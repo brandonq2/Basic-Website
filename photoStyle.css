@@ -19,8 +19,8 @@
   cursor: pointer;
   transition: 0.3s;
   opacity: 0.8;
-  width: 375px;
-  height: 250px;
+  width: 20%;
+  height: 25%;
 }
 
 .myImg:hover {opacity: 1;}
@@ -135,8 +135,7 @@
   /* The image used */
   background-image: url("Photos/Landscapes/img1.JPG");
   /* Set a specific height */
-  height: 100%;
-
+  height: auto;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -146,10 +145,10 @@
 
 .parallax2 {
   /* The image used */
-  background-image: url("Photos/Smoke/img1.JPG");
+  background-image: url("Photos/Smoke/img1.jpg");
 
   /* Set a specific height */
-  height: 100%;
+  height: auto;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -162,8 +161,7 @@
   background-image: url("Photos/Colour/img6.jpg");
 
   /* Set a specific height */
-  height: 100%;
-
+  height: auto;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -175,11 +173,11 @@
   background-image: url("Photos/Photoshop/img1.png");
 
   /* Set a specific height */
-  height: 100%;
-
+  height: auto;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow-y:
 }
