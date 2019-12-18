@@ -27,6 +27,12 @@ body{
   z-index: 0;
 }
 
+.container2-1{
+  width: 97%;
+  height: 0%;
+  z-index: 0;
+}
+
 .container:before {
   content: "";
   position: fixed;

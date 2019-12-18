@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title> Online Movie Database </title>
+    <style>
+        body {
+            padding:40px;
+        }
+       .center {
+            display: block;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        form {
+            margin: 0 auto;
+            color:#506775;
+        }
+    </style>
+</head>
+<body style="background-color:#C5CBE3;">
+
+    <div class = "center">
+        <h1 style="color:#000000;"> Database Options </h1>
+        <form name="myForm" action="CPS510.php " onsubmit="return validateForm()" method="POST">
+          <button type="submit" name="create" value=true> Create Tables </button>
+          <button type="submit" name="show" value=true> Show Tables </button>
+          <button type="submit" name="populate" value=true> Populate Tables </button>
+          <button type="submit" name="drop" value=true> Drop </button>
+          <button type="submit" name="q1" value=true> Query 1 </button>
+          <button type="submit" name="q2" value=true> Query 2 </button>
+          <button type="submit" name="q3" value=true> Query 3 </button>
+          <button type="submit" name="q4" value=true> Query 4 </button>
+          <button type="submit" name="q5" value=true> Query 5 </button>
+          <button type="submit" name="q6" value=true> Query 6 </button>
+          <button type="submit" name="q7" value=true> Query 7 </button>
+        </form>
+    </div>
+</body>
+</html>
